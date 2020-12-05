@@ -6,6 +6,13 @@
       <input class="zai-input" placeholder-class placeholder="请输入用户名" />
       <input class="zai-input" placeholder-class password placeholder="请输入密码"/>
       <input class="zai-input" placeholder-class password placeholder="请再输入一次密码"/>
+      <view class="zai-input">
+        <picker @change="PickerChange" :value="index" :range="picker">
+          <view class="picker">
+            {{index>-1?picker[index]:'身份'}}
+          </view>
+        </picker>
+      </view>
       <button class="zai-btn">立即注册</button>
       <navigator url="login" open-type='navigateBack' hover-class="none" class="zai-label">已有账号，点此去登录.</navigator>
     </view>
@@ -14,7 +21,18 @@
 
 <script>
 export default {
-  name: "register"
+  data() {
+    return {
+      index: -1,
+      picker: ['学生', '教师'],
+    }
+  },
+  name: "register",
+  methods: {
+    PickerChange(e) {
+      this.index = e.detail.value
+    }
+  }
 }
 </script>
 
@@ -45,7 +63,7 @@ export default {
   background: #e2f5fc;
   margin-top: 30upx;
   border-radius: 100upx;
-  padding: 20upx 40upx;
+  padding: 0 40upx;
   font-size: 36upx;
 }
 .input-placeholder, .zai-input{

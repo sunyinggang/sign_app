@@ -1,15 +1,21 @@
 {
 	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/face/face",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "签到"
 			}
 		},
 		{
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
 			}
 		},
 		{

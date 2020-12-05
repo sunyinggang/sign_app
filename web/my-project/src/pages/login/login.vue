@@ -3,10 +3,17 @@
     <image src="../../static/login.png" mode='aspectFit' class="zai-logo"></image>
     <view class="zai-title">LOGO区域</view>
     <view class="zai-form">
-      <input class="zai-input" placeholder-class placeholder="请输入用户名" />
-      <input class="zai-input" placeholder-class password placeholder="请输入密码"/>
+      <input class="zai-input" placeholder="请输入用户名" />
+      <input class="zai-input" password placeholder="请输入密码"/>
+      <view class="zai-input">
+        <picker @change="PickerChange" :value="index" :range="picker">
+          <view class="picker">
+            {{index>-1?picker[index]:'身份'}}
+          </view>
+        </picker>
+      </view>
       <view class="zai-label">忘记密码？</view>
-      <button class="zai-btn">立即登录</button>
+      <button @click="login" class="zai-btn">立即登录</button>
       <navigator url="register" hover-class="none" class="zai-label">还没有账号？点此注册.</navigator>
     </view>
   </view>
@@ -14,7 +21,25 @@
 
 <script>
 export default {
-  name: "login"
+  data() {
+    return {
+      index: -1,
+      picker: ['学生', '教师'],
+    }
+  },
+  name: "login",
+  methods: {
+    PickerChange(e) {
+      this.index = e.detail.value
+    },
+    login() {
+      if(this.picker[this.index] == '学生'){
+        this.$router.push({
+          path: 'pages/index/index',
+        })
+      }
+    }
+  }
 }
 </script>
 
@@ -45,7 +70,7 @@ export default {
   background: #e2f5fc;
   margin-top: 30upx;
   border-radius: 100upx;
-  padding: 20upx 40upx;
+  padding: 0 40upx;
   font-size: 36upx;
 }
 .input-placeholder, .zai-input{
