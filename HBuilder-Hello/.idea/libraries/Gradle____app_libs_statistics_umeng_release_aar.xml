@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/statistics-umeng-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/statistics-umeng-release.aar/3e9118486e6d5f73b1b3d6d532423d19/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/statistics-umeng-release.aar/3e9118486e6d5f73b1b3d6d532423d19/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/statistics-umeng-release.aar/3e9118486e6d5f73b1b3d6d532423d19/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/statistics-umeng-release.aar/3e9118486e6d5f73b1b3d6d532423d19/jars/libs/umeng-analytics-v6.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -91,7 +91,7 @@ page{
   .bg{
     width: 100%;
     height:200upx;
-    padding-top:100upx;
+    padding-top:140upx;
     background-color:#4191ea;
   }
 }

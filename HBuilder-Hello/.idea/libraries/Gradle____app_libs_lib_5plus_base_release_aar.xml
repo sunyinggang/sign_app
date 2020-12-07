@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/lib.5plus.base-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lib.5plus.base-release.aar/f635033cf45d5c1795629324852961cb/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lib.5plus.base-release.aar/f635033cf45d5c1795629324852961cb/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lib.5plus.base-release.aar/f635033cf45d5c1795629324852961cb/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

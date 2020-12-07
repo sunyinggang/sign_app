@@ -34,9 +34,9 @@ export default {
     },
     login() {
       if(this.picker[this.index] == '学生'){
-        this.$router.push({
-          path: 'pages/index/index',
-        })
+        uni.navigateTo({
+          url: '/pages/index/index',
+        });
       }
     }
   }

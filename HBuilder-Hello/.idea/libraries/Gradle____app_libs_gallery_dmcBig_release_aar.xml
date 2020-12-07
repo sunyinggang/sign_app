@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/gallery-dmcBig-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gallery-dmcBig-release.aar/e59c62b76f8f14694b17deb064c2b677/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gallery-dmcBig-release.aar/e59c62b76f8f14694b17deb064c2b677/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gallery-dmcBig-release.aar/e59c62b76f8f14694b17deb064c2b677/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gallery-dmcBig-release.aar/e59c62b76f8f14694b17deb064c2b677/jars/libs/chrisbanes-photoview-1.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

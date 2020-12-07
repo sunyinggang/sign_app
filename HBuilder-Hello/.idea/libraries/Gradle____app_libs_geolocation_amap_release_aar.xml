@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/geolocation-amap-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geolocation-amap-release.aar/7a2b1a4bca074ba0d4552ae787ad3fee/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geolocation-amap-release.aar/7a2b1a4bca074ba0d4552ae787ad3fee/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geolocation-amap-release.aar/7a2b1a4bca074ba0d4552ae787ad3fee/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

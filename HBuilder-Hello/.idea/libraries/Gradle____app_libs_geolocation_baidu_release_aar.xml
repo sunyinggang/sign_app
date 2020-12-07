@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/geolocation-baidu-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geolocation-baidu-release.aar/1c27cee93e512c76a799ebdcba037038/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geolocation-baidu-release.aar/1c27cee93e512c76a799ebdcba037038/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geolocation-baidu-release.aar/1c27cee93e512c76a799ebdcba037038/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

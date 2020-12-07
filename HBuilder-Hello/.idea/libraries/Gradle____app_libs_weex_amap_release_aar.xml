@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/weex_amap-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex_amap-release.aar/58498ac56d8fa46675b70aa836b9cdc6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex_amap-release.aar/58498ac56d8fa46675b70aa836b9cdc6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex_amap-release.aar/58498ac56d8fa46675b70aa836b9cdc6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,2 @@
+# Referenced at D:\MyCode\github\sign_app\HBuilder-Hello\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:171
+-keep class io.dcloud.application.DCloudApplication { <init>(...); }

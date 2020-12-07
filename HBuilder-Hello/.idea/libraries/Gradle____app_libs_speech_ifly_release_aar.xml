@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/speech_ifly-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech_ifly-release.aar/ca1cf1c5b9ac24dfdf55d44b850d3f90/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech_ifly-release.aar/ca1cf1c5b9ac24dfdf55d44b850d3f90/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech_ifly-release.aar/ca1cf1c5b9ac24dfdf55d44b850d3f90/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech_ifly-release.aar/ca1cf1c5b9ac24dfdf55d44b850d3f90/jars/libs/Msc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

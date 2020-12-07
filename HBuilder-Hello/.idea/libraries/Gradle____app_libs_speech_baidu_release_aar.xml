@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/speech_baidu-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech_baidu-release.aar/f8268cd81c752f71e0dce80876a6ec57/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech_baidu-release.aar/f8268cd81c752f71e0dce80876a6ec57/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech_baidu-release.aar/f8268cd81c752f71e0dce80876a6ec57/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech_baidu-release.aar/f8268cd81c752f71e0dce80876a6ec57/jars/libs/bdasr_V3_20191210_81acdf5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

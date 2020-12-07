@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/openDefault-4.4.1.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/openDefault-4.4.1.aar/0c62a3fc9a53e84a68a18edfaf6a2379/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/openDefault-4.4.1.aar/0c62a3fc9a53e84a68a18edfaf6a2379/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/openDefault-4.4.1.aar/0c62a3fc9a53e84a68a18edfaf6a2379/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/openDefault-4.4.1.aar/0c62a3fc9a53e84a68a18edfaf6a2379/jars/libs/ssosdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

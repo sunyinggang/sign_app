@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/fingerprint-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fingerprint-release.aar/7297fc04115176bb4b3259a4ca3afb4b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fingerprint-release.aar/7297fc04115176bb4b3259a4ca3afb4b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fingerprint-release.aar/7297fc04115176bb4b3259a4ca3afb4b/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

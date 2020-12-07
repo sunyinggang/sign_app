@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/media-livepusher-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/media-livepusher-release.aar/4193b1947690fb9e16e3eaf127b69859/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/media-livepusher-release.aar/4193b1947690fb9e16e3eaf127b69859/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/media-livepusher-release.aar/4193b1947690fb9e16e3eaf127b69859/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

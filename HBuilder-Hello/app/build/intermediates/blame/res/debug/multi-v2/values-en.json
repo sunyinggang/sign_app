@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\MyCode\\github\\sign_app\\HBuilder-Hello\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\H\\.gradle\\caches\\transforms-1\\files-1.1\\lib.5plus.base-release.aar\\f635033cf45d5c1795629324852961cb\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "68",
+                        "endOffsets": "119"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\H\\.gradle\\caches\\transforms-1\\files-1.1\\gallery-dmcBig-release.aar\\e59c62b76f8f14694b17deb064c2b677\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,137,201,265,344,393,446,508,603,737,796,893,950,1019,1126,1196,1265,1320",
+                        "endColumns": "81,63,63,78,48,52,61,94,133,58,96,56,68,106,69,68,54,68",
+                        "endOffsets": "132,196,260,339,388,441,503,598,732,791,888,945,1014,1121,1191,1260,1315,1384"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "124,206,270,334,413,462,515,577,672,806,865,962,1019,1088,1195,1265,1334,1389",
+                        "endColumns": "81,63,63,78,48,52,61,94,133,58,96,56,68,106,69,68,54,68",
+                        "endOffsets": "201,265,329,408,457,510,572,667,801,860,957,1014,1083,1190,1260,1329,1384,1453"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\H\\.gradle\\caches\\transforms-1\\files-1.1\\weex_videoplayer-release.aar\\518f38df95302115a8badda91a652ee3\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,111",
+                        "endColumns": "55,57",
+                        "endOffsets": "106,164"
+                    },
+                    "to": {
+                        "startLines": "21,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "1458,1514",
+                        "endColumns": "55,57",
+                        "endOffsets": "1509,1567"
+                    }
+                }
+            ]
+        }
+    ]
+}

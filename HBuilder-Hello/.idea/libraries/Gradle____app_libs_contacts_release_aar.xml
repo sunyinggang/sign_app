@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/contacts-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/contacts-release.aar/d90b9e39faafb1f3637bca34c0b86dd4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/contacts-release.aar/d90b9e39faafb1f3637bca34c0b86dd4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/contacts-release.aar/d90b9e39faafb1f3637bca34c0b86dd4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

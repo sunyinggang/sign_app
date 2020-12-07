@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/share-qq-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/share-qq-release.aar/848a0203ff1d37f3df34e101a5e34bcd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/share-qq-release.aar/848a0203ff1d37f3df34e101a5e34bcd/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/share-qq-release.aar/848a0203ff1d37f3df34e101a5e34bcd/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -5,7 +5,7 @@
     <view class="time-table width-100-bfb flex flex-direction" style="height: 100vh">
 
       <view class="">
-        <view class="cu-bar bg-white text-primary">
+        <view class="cu-bar bg-white text-primary" style="min-height: 160upx;">
           <view class="action" @click="previousWeek">
             <text class="cuIcon-back" style="margin-right: unset;"></text>
             <text class="text-bold text-lg">上一周</text>

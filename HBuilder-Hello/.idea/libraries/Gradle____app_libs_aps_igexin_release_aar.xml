@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/aps-igexin-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-igexin-release.aar/7e9478c0d7832eb202846efc8f43ee9c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-igexin-release.aar/7e9478c0d7832eb202846efc8f43ee9c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-igexin-release.aar/7e9478c0d7832eb202846efc8f43ee9c/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-igexin-release.aar/7e9478c0d7832eb202846efc8f43ee9c/jars/libs/GetuiSDK4.3.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

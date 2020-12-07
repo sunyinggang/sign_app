@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/oauth-miui-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/oauth-miui-release.aar/cffac3987086dadc90bb4a4f8e94f380/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/oauth-miui-release.aar/cffac3987086dadc90bb4a4f8e94f380/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/oauth-miui-release.aar/cffac3987086dadc90bb4a4f8e94f380/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/oauth-miui-release.aar/cffac3987086dadc90bb4a4f8e94f380/jars/libs/xiaomi-oauth.1.6.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

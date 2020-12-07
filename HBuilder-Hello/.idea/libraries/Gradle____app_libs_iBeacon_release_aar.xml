@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/iBeacon-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iBeacon-release.aar/e0ef01c9fdeff6ea46dfe781b6e40a8e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iBeacon-release.aar/e0ef01c9fdeff6ea46dfe781b6e40a8e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/iBeacon-release.aar/e0ef01c9fdeff6ea46dfe781b6e40a8e/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

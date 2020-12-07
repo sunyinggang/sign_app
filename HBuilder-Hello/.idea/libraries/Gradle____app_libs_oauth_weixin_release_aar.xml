@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/oauth-weixin-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/oauth-weixin-release.aar/28538c7ee2977c558b6c3242977c1773/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/oauth-weixin-release.aar/28538c7ee2977c558b6c3242977c1773/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/oauth-weixin-release.aar/28538c7ee2977c558b6c3242977c1773/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/aps-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-release.aar/e48488ed9392bf08016cf454fc4c6375/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-release.aar/e48488ed9392bf08016cf454fc4c6375/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aps-release.aar/e48488ed9392bf08016cf454fc4c6375/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

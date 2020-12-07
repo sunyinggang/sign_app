@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/speech-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-release.aar/cecbdfd618bab2ae007b19f3629b4dd2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-release.aar/cecbdfd618bab2ae007b19f3629b4dd2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/speech-release.aar/cecbdfd618bab2ae007b19f3629b4dd2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

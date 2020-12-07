@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/share-sina-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/share-sina-release.aar/6edef3c3503e16a13957eae8d9e7387f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/share-sina-release.aar/6edef3c3503e16a13957eae8d9e7387f/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/share-sina-release.aar/6edef3c3503e16a13957eae8d9e7387f/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

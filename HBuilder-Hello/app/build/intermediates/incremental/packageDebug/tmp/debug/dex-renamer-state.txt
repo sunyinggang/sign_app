@@ -1,0 +1,13 @@
+#Mon Dec 07 14:28:19 CST 2020
+path.3=classes3.dex
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=D\:\\MyCode\\github\\sign_app\\HBuilder-Hello\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.2=D\:\\MyCode\\github\\sign_app\\HBuilder-Hello\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=D\:\\MyCode\\github\\sign_app\\HBuilder-Hello\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.0=D\:\\MyCode\\github\\sign_app\\HBuilder-Hello\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

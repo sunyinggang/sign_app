@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/weex_webview-x5-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex_webview-x5-release.aar/e7ee1578b41eca12944e482cf66e8ef8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex_webview-x5-release.aar/e7ee1578b41eca12944e482cf66e8ef8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/weex_webview-x5-release.aar/e7ee1578b41eca12944e482cf66e8ef8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
