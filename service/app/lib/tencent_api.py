@@ -7,7 +7,8 @@ from tencentcloud.iai.v20200303 import iai_client, models
 
 from app import app
 
-
+# teacher_face id:2
+# student_face id:3
 
 def create_group():
     try:
@@ -58,7 +59,31 @@ def add_person():
     except TencentCloudSDKException as err:
         print(err)
 
-# faceid:3929148601433912867
+def search_face(info):
+    #info{group_id,image}
+    try:
+        cred = credential.Credential(app.config['TENCENT_SECRET_ID'], app.config['TENCENT_SECRET_KEY'])
+        httpProfile = HttpProfile()
+        httpProfile.endpoint = "iai.tencentcloudapi.com"
+
+        clientProfile = ClientProfile()
+        clientProfile.httpProfile = httpProfile
+        client = iai_client.IaiClient(cred, "ap-beijing", clientProfile)
+
+        req = models.SearchFacesRequest()
+        params = {
+            "GroupIds": info["group_id"],
+            "Image": info["image"]
+        }
+        req.from_json_string(json.dumps(params))
+
+        resp = client.SearchFaces(req)
+        return resp.to_json_string()
+
+    except TencentCloudSDKException as err:
+        print(err)
+
+
 
 if __name__ == '__main__':
     add_person()

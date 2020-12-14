@@ -4,6 +4,9 @@ import App from './App'
 import cuCustom from './colorui/components/cu-custom.vue'
 Vue.component('cu-custom',cuCustom)
 
+import face from 'face-ca'
+Vue.component('face',face)
+
 import course from './pages/course/course.vue'
 Vue.component('course',course)
 

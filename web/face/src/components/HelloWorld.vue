@@ -1,0 +1,46 @@
+<template>
+  <div>
+    {{ msg }}
+    <face :activename="activeName" :isrest='isRest' @restActive='restactive' @responseFun='responseFun' ></face>
+    <button id="facelogin" @click="faceLogin">开始签到</button>
+  </div>
+</template>
+<script>
+
+export default {
+  name: 'HelloWorld',
+  data() {
+    return {
+      msg: '',
+      activeName: '',
+      isRest:false
+    };
+  },
+  methods: {
+    // 进入人脸识别页面
+    faceLogin() {
+      this.activeName = 'active';
+    },
+    // 重置插件中的数据
+    restactive(val){
+      this.activeName = val
+      this.isRest = false;
+    },
+    responseFun(data){
+      if(data != ''){
+        console.log(data)
+        this.$router.push({
+          path: `/course/list`,
+          query: {image:data}
+        })
+      }
+       setTimeout(()=>{
+         this.isRest = true;
+       },1000)
+    }
+  },
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped></style>

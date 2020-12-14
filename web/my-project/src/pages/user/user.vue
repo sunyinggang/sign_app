@@ -37,13 +37,13 @@
         <view class="list">
           <view class="li noborder" >
             <view class="icon"><image src="../../static/user/card.png"></image></view>
-            <view class="text">认证信息</view>
+            <view class="text" @click="toInfo()">认证信息</view>
             <image class="to" src="../../static/user/to.png"></image>
           </view>
         </view>
         <view class="li " >
           <view class="icon"><image src="../../static/user/help.png"></image></view>
-          <view class="text">选课中心</view>
+          <view class="text" @click="toSelect()">选课中心</view>
           <image class="to" src="../../static/user/to.png"></image>
         </view>
         <view class="li " >
@@ -73,6 +73,18 @@ export default {
   data() {
     return {
     };
+  },
+  methods: {
+    toSelect() {
+      uni.navigateTo({
+        url: '/pages/course/select',
+      });
+    },
+    toInfo() {
+      uni.navigateTo({
+        url: '/pages/user/detail',
+      });
+    }
   },
   onLoad() {
   }

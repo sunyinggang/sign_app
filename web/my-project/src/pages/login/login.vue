@@ -33,7 +33,7 @@ export default {
       this.index = e.detail.value
     },
     login() {
-      if(this.picker[this.index] == '学生'){
+      if(this.picker[this.index] == '学生' || this.picker[this.index] == '教师' ){
         uni.navigateTo({
           url: '/pages/index/index',
         });

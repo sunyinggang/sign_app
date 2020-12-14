@@ -1,9 +1,27 @@
 {
 	"pages": [
 		{
+			"path": "pages/face/face",
+			"style": {
+				"navigationBarTitleText": "人脸"
+			}
+		},
+		{
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/course/select",
+			"style": {
+				"navigationBarTitleText": "选课中心"
+			}
+		},
+		{
+			"path": "pages/user/detail",
+			"style": {
+				"navigationBarTitleText": "认证信息"
 			}
 		},
 		{
