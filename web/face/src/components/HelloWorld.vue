@@ -2,7 +2,9 @@
   <div>
     {{ msg }}
     <face :activename="activeName" :isrest='isRest' @restActive='restactive' @responseFun='responseFun' ></face>
-    <button id="facelogin" @click="faceLogin">开始签到</button>
+    <div style="margin-top: 250px;background-color: #fff">
+      <button class="btn" id="facelogin" @click="faceLogin">开始签到</button>
+    </div>
   </div>
 </template>
 <script>
@@ -43,4 +45,12 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.btn{
+  color: #323233;
+  height: 50px;
+  width: 100px;
+  background-color: #e0dbdb;
+  border: 1px solid #ebedf0;
+}
+</style>

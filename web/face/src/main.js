@@ -14,8 +14,7 @@ import { Cell, CellGroup } from 'vant';
 import { List } from 'vant';
 import { Col, Row } from 'vant';
 import { Popup } from 'vant';
-
-
+import { Button } from 'vant';
 
 import 'vant/lib/index.css';
 console.log(face)
@@ -30,6 +29,7 @@ Vue.use(List);
 Vue.use(Col);
 Vue.use(Row);
 Vue.use(Popup);
+Vue.use(Button);
 
 Vue.config.productionTip = false
 Vue.prototype.$ajax = axios

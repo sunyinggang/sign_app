@@ -4,22 +4,29 @@
       title="课程列表"
     />
     <div class="card">
-      <div v-if="this.teacher_name == ''">
-        <van-loading type="spinner" vertical>加载中...</van-loading>
+      <div v-if="this.status != ''">
+        <van-row>
+          <van-col span="8">{{this.status}}</van-col>
+        </van-row>
       </div>
       <div v-else>
-        <van-row>
-          <van-col span="8">教师名：{{this.teacher_name}}</van-col>
-          <van-col span="8" offset="8">工号：{{this.teacher_num}}</van-col>
-        </van-row>
-        <van-row>
+        <div v-if="this.teacher_name == ''">
+          <van-loading type="spinner" vertical>加载中...</van-loading>
+        </div>
+        <div v-else>
+          <van-row>
+            <van-col span="8">教师名：{{this.teacher_name}}</van-col>
+            <van-col span="8" offset="8">工号：{{this.teacher_num}}</van-col>
+          </van-row>
+          <van-row>
             <van-col span="16">
               <van-cell-group>
                 <van-cell @click="select_course(item.id)" v-for="item in this.tea_course_list"  icon="arrow" :key="item.id" :title="item.course_name" :value="item.start_time+'--'+item.end_time" :label="item.classroom" />
               </van-cell-group>
             </van-col>
-        </van-row>
+          </van-row>
         </div>
+      </div>
       </div>
     </div>
 </template>
@@ -32,7 +39,8 @@ export default {
       image: '',
       teacher_name: '',
       teacher_num: '',
-      tea_course_list:[]
+      tea_course_list:[],
+      status:''
     };
   },
   mounted() {
@@ -57,7 +65,7 @@ export default {
           this.teacher_name = res.data["teacher_name"]
           this.teacher_num = res.data["teacher_num"]
         }else{
-          console.log("不是")
+          this.status = "教师不存在"
         }
         console.log(res)
       }).catch(function (error) {
