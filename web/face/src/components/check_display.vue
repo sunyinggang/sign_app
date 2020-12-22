@@ -51,7 +51,7 @@ export default {
     check(){
       this.image = this.$route.query.image
       this.course_id = this.$route.query.course_id
-      this.$ajax.post('http://127.0.0.1:5000/course/check/',{
+      this.$ajax.post('http://192.168.1.140:5555/course/check/',{
         image_info:this.image,course_id:this.course_id
       }).then((res) => {
         console.log(res)

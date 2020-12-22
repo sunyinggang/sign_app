@@ -54,7 +54,7 @@ export default {
   methods: {
     get_course_list(data){
       this.image = this.$route.query.image
-      this.$ajax.post('http://127.0.0.1:5000/teacher/class/list/',{
+      this.$ajax.post('http://192.168.1.140.:5555/teacher/class/list/',{
         image_info:data
       }).then((res) => {
         console.log(res)
